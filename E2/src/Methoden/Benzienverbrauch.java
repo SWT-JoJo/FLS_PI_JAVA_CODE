@@ -22,7 +22,7 @@ public class Benzienverbrauch {
         System.out.println("*******************************************************************");
         System.out.println("                    Berrechnung Benzienverbrauch                   ");
         System.out.println("*******************************************************************");
-        System.out.println();;
+        System.out.println();
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Eingabe: ");
