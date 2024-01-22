@@ -34,11 +34,18 @@ public class Koerpergroesse {
     }
 
     void verarbeitung(){
+        int temp = alter - 30;
+        System.out.println("Testing temp: " + temp);
+
         if(usergeschlecht.equalsIgnoreCase(geschlechter[0])){
             schaetzungGroesse = oberschenkel  * 2.238 +  0.69089;
+
         }
         else if(usergeschlecht.equalsIgnoreCase(geschlechter[1])){
             schaetzungGroesse = oberschenkel  * 2 +  0.61417;
+        }
+        for(int i = 0; i < temp; i++){
+            schaetzungGroesse = schaetzungGroesse - 0.0006;
         }
 
         schaetzungGroesse = ((int) (schaetzungGroesse * 100)) / 100.0;
