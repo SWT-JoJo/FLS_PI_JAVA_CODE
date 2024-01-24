@@ -14,7 +14,7 @@ public class Benzienverbrauch {
 
         bv.input();
         bv.processing();
-        bv. output();
+        bv.output();
     }
     
     void input(){
