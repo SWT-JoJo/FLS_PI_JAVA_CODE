@@ -37,8 +37,6 @@ public class Binary_Converter {
             if (binaryInputArray[i] == '1') {
                // System.out.println("1"); //testing
                 dezimal = (int) (dezimal + Math.pow(2, i));
-            } else {
-                // System.out.println("0"); //testing
             }
 
         }
