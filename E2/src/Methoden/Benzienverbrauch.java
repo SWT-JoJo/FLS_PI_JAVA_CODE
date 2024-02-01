@@ -20,7 +20,7 @@ public class Benzienverbrauch {
     void input(){
         //Header
         System.out.println("*******************************************************************");
-        System.out.println("                    Berrechnung Benzienverbrauch                   ");
+        System.out.println("*                   Berrechnung Benzienverbrauch                  *");
         System.out.println("*******************************************************************");
         System.out.println();
 

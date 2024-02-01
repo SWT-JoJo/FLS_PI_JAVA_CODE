@@ -1,6 +1,5 @@
 package Methoden;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Koerpergroesse {
@@ -21,7 +20,7 @@ public class Koerpergroesse {
     void eingabe(){
         Scanner scan = new Scanner(System.in);
         System.out.println("*******************************************************************");
-        System.out.println("                       Koerpergroessen Rechner                     ");
+        System.out.println("*                      Koerpergroessen Rechner                    *");
         System.out.println("*******************************************************************");
         System.out.println();
 
