@@ -10,7 +10,7 @@ public class BußgeldKatalog {
 
     //Geschwindigkeit
     int geschwndigkeit;
-    int toleranz = 3;
+    final int TOLERANZ = 3;
     int hoehstgeschwindigkeit;
     int überschreitung;
     //Strafen
@@ -54,7 +54,7 @@ public class BußgeldKatalog {
 
     void titel() {
         System.out.println("*******************************************************************");
-        System.out.println("*                          Bußgeld Katalog                        *");
+        System.out.println("***                        Bußgeld Katalog                      ***");
         System.out.println("*******************************************************************");
         System.out.println();
     }
@@ -78,7 +78,7 @@ public class BußgeldKatalog {
     }
 
     void verarbeitung() {
-        überschreitung = geschwndigkeit - toleranz - hoehstgeschwindigkeit;
+        überschreitung = geschwndigkeit - TOLERANZ - hoehstgeschwindigkeit;
         //Auswahl des passenden Kataloges
         if (überschreitung <= 0) {
             System.out.println("Eingabe");
@@ -186,7 +186,7 @@ public class BußgeldKatalog {
     void ausgabe() {
         System.out.println("Ausgabe");
         System.out.println("*******");
-        System.out.println("Sie haben die Geschwindigkeit mit Berücksichtigung der Toleranz von " + toleranz + "km/h um " + überschreitung + "km/h überschritten. Sie erhalten folgende Strafen: \n");
+        System.out.println("Sie haben die Geschwindigkeit mit Berücksichtigung der Toleranz von " + TOLERANZ + "km/h um " + überschreitung + "km/h überschritten. Sie erhalten folgende Strafen: \n");
         System.out.println("Bußgeld: " + bussgeld);
         System.out.println("Strafpunkte: " + strafpunkte);
         System.out.println("Fahrverbot: " + fahrverbot);
