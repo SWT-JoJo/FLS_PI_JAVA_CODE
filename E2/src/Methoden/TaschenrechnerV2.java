@@ -3,56 +3,56 @@ package Methoden;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Taschenrechner {
+public class TaschenrechnerV2 {
     boolean running = true;
-    double solution = 0;
-    double zahl1;
-    double zahl2;
     public static void main(String[] args) {
-        Taschenrechner tr = new Taschenrechner();
-        while (tr.running)
-            tr.mainMenu();
+        TaschenrechnerV2 tr = new TaschenrechnerV2();
+        while (tr.running) {
+            tr.menu();
+        }
     }
 
-    public void mainMenu(){
+    public void menu(){
         int anzRechenOperationen = 4;
         DecimalFormat df_number = new DecimalFormat("#,###,###,###,##0.##");
 
+        double solution = 0;
         int selection ;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Bitte geben sie die Zahlen ein");
         System.out.print("Zahl1: ");
-         zahl1  = scan.nextDouble();
+        double zahl1  = scan.nextDouble();
         System.out.print("Zahl2: ");
-         zahl2  = scan.nextDouble();
-        System.out.println("Bitte wählen sie aus:\n\t1: plus(+)\n\t2: minus(-)\n\t3: mal(*)\n\t4: geteilt (/)");
+        double zahl2  = scan.nextDouble();
+        System.out.println("Bitte wählen sie aus: \n\t0: reset input\n\t1: plus(+)\n\t2: minus(-)\n\t3: mal(*)\n\t4: geteilt (/)");
         do{
             System.out.print("Ihr Rechenoperator: ");
             selection = scan.nextInt();
             if(selection < 0 || selection > anzRechenOperationen){
                 System.out.println("ERROR: INVALID INPUT TRY AGAIN ");
             }
-        }while(selection <= 0 || selection > anzRechenOperationen);
+        }while(selection < 0 || selection > anzRechenOperationen);
 
-
-        //
-        if(selection == 1) {
-            plus();
+        if(selection == 0) {
+                    menu();
+        } else if(selection == 1) {
+                    solution = plus(zahl1, zahl2);
         } else if (selection == 2) {
-            solution = minus();
+                    solution = minus(zahl1, zahl2);
         } else if (selection == 3) {
-            multiply(zahl1, zahl2);
+                    solution = multiply(zahl1, zahl2);
         } else {
             solution = divide(zahl1, zahl2);
         }
 
-        System.out.println("Ihr Ergebniss: "+df_number.format(solution)+"\n\n");
-            String newRunSelection;
+        System.out.println("Ihr Ergebniss: "+df_number.format(solution)+"\n");
+
         //Frage zur wiederholten Berrechnung
+        String newRunSelection;
         do {
             System.out.println("Neue Berrechnung (Y/N): ");
-             newRunSelection = scan.next();
+            newRunSelection = scan.next();
             if (newRunSelection.equalsIgnoreCase("Y")) {
                 running = true;
                 System.out.println("RELOADING... \n\n");
@@ -68,24 +68,16 @@ public class Taschenrechner {
 
     }
 
-    //Ohne Rückgabe und Parametern
-    public void plus(){
-        solution = zahl1 + zahl2;
+    public double plus(double a, double b){
+        return (a + b);
     }
-
-    //mit Rückgabe, ohne Parametern
-    public double minus(){
-        return (zahl1 - zahl2);
+    public double minus(double a, double b){
+        return (a - b);
     }
-
-    //ohne Rückgabe, mit Parametern
-    public void multiply(double a, double b){
-        solution = (a * b);
+    public double multiply(double a, double b){
+        return (a * b);
     }
-
-    //Rückgabe und Übergabe
     public double divide(double a, double b){
-        return  (a / b);
+        return (a / b);
     }
 }
-
