@@ -1,4 +1,4 @@
-package EVAPrinzip;
+package EVA_Methoden;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
