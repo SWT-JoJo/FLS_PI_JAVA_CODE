@@ -89,3 +89,4 @@ public class Taschenrechner {
     }
 }
 
+// bei minus wurde nicht mit den parametern gerechnet
