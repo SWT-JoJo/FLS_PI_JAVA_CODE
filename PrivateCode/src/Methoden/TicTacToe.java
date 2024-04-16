@@ -96,23 +96,24 @@ public class TicTacToe {
     }
 
     void checkWinCondition(String player1Name,String player2Name){
-        if(turns >= 3){
-            if(board[0][0] == board[0][1] && board[0][0] == board[0][2] || board[1][0] == board[1][1] && board[1][0] == board[1][2] ||board[2][0] == board[2][1] && board[2][0] == board[2][2] ||
-                board[0][0] == board[1][0] && board[0][0] == board[2][0] ||board[0][1] == board[1][1] && board[0][1] == board[2][1] || board[0][2] == board[1][2] && board[0][2] == board[2][2] ||
-                board[0][0] == board[1][1] && board[0][0] == board[2][2] || board[0][2] == board[1][1] && board[0][2] == board[0][2]) {
+        // Horizontal und vertikal überprüfen
+        for (int i = 0; i < 3; i++) {
+            if (board[i][0] == board[i][1] && board[i][1] == board[i][2] && board[i][0] != ' ') {
 
-            playing = false;
-
-            if (currentPlayersTurn == 1) {
-                System.out.println(player2Name + " hat die Runde gewonnen");
-                player2Score++;
-            } else {
-                System.out.println(player1Name + " hat die Runde gewonnen");
-                player1Score++;
             }
-            turns = 0;
+            if (board[0][i] == board[1][i] && board[1][i] == board[2][i] && board[0][i] != ' ') {
+
             }
         }
+        // Diagonal überprüfen
+        if (board[0][0] == board[1][1] && board[1][1] == board[2][2] && board[0][0] != ' ') {
+
+        }
+        if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != ' ') {
+
+        }
+        // Kein Gewinner
+        
     }
 
 
