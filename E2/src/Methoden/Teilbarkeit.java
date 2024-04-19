@@ -11,6 +11,10 @@ public class Teilbarkeit {
     }
 
     void input(){
+        System.out.println("*******************************************************************");
+        System.out.println("*                           Teilbarkeit                           *");
+        System.out.println("*******************************************************************");
+        System.out.println();
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Geben sie die Zahl ein: ");
@@ -53,7 +57,6 @@ public class Teilbarkeit {
 
         return teilbar;
     }
-
 
     public int[] teilbarkeit(int zahl){
         int[] zahlen = new int[zahl];
