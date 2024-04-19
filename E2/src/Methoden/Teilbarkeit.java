@@ -1,5 +1,6 @@
 package Methoden;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Teilbarkeit {
@@ -12,8 +13,6 @@ public class Teilbarkeit {
     void input(){
         Scanner scan = new Scanner(System.in);
 
-
-
         System.out.println("Geben sie die Zahl ein: ");
         int zahl = scan.nextInt();
         System.out.println("Geben sie den Divisor ein: ");
@@ -25,11 +24,13 @@ public class Teilbarkeit {
     }
 
     public void output(int zahl, int divisor, boolean teilbar, int[] teilbareZahlen){
+        DecimalFormat df_number = new DecimalFormat("#,###,###,##0.####");
 
         if(teilbar){
             System.out.println(zahl + " durch " + divisor + " teilen ist glatt möglich");
         } else{
             System.out.println(zahl + " durch " + divisor + " teilen ist glatt NICHT möglich");
+            System.out.println("Rauskommen würde: " + df_number.format( (double) zahl / divisor));
         }
 
         System.out.println();
@@ -63,9 +64,7 @@ public class Teilbarkeit {
                 counter++;
             }
         }
-
         return zahlen;
-
     }
 
 }
