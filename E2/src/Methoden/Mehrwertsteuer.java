@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Mehrwertsteuer {
 
-
     public static void main(String[] args) {
         Mehrwertsteuer ms = new Mehrwertsteuer();
         ms.input();
@@ -47,13 +46,15 @@ public class Mehrwertsteuer {
 
         }while (mwstSelection < 1 || mwstSelection > 2);
 
+
+        // Berrechnung des Brutto/Netto wertes und der MwSt
         double mwst;
         double betragzwo;
 
-        if(netoBruttoSelection == 1){ //Netto
+        if(netoBruttoSelection == 1){ //Netto (Brutto wird berrechnet)
             mwst = berechneMwStvomNettoBetrag(betrag, mwstSelection);
             betragzwo = berechneBruttoBetragvomNettoBetrag(betrag, mwstSelection);
-        } else { //Brutto
+        } else { //Brutto (Netto wird berrechnet)
             mwst = berechneMwStvomBruttoBetrag(betrag, mwstSelection);
             betragzwo = berechneNettoBetragvomBruttoBetrag(betrag, mwstSelection);
         }
@@ -106,10 +107,10 @@ public class Mehrwertsteuer {
 
         if(mwsatzKennziffer == 1)
         {
-            ergebniss = bb * (1 / 1.07);
+            ergebniss = bb *  0.93; //0 - 1,07
         }
         else{
-            ergebniss = bb * (1 / 1.19);
+            ergebniss = bb * 0.81; //1 - 0,19
         }
 
         return  ergebniss;

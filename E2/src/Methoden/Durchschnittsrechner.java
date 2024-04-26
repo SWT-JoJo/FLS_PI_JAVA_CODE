@@ -1,15 +1,14 @@
 package Methoden;
 
-import javax.sound.midi.Soundbank;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Durchschnittsrechner {
     public static void main(String[] args) {
         Durchschnittsrechner ds = new Durchschnittsrechner();
-        System.out.println("*******************************************************************");
-        System.out.println("*                   Berrechnung Benzienverbrauch                  *");
-        System.out.println("*******************************************************************");
+        System.out.println("*****************************************************************");
+        System.out.println("*                     DurchschnittsRechner                      *");
+        System.out.println("*****************************************************************");
         System.out.println();
 
         ds.eingabe();
