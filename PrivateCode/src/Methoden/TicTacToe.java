@@ -113,7 +113,6 @@ public class TicTacToe {
 
         }
         // Kein Gewinner
-        
     }
 
 
