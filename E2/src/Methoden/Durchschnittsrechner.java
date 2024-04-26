@@ -7,7 +7,7 @@ public class Durchschnittsrechner {
     public static void main(String[] args) {
         Durchschnittsrechner durchschnittsrechner = new Durchschnittsrechner();
         System.out.println("*****************************************************************");
-        System.out.println("*                     DurchschnittsRechner                      *");
+        System.out.println("*                     Durchschnittsrechner                      *");
         System.out.println("*****************************************************************");
         System.out.println();
 
@@ -29,8 +29,6 @@ public class Durchschnittsrechner {
         double durchschnitt = durchschnitt(numbers);
         System.out.println("Der Durschschnitt beträgt: " + df_numbers.format(durchschnitt));
     }
-
-
 
     public double durchschnitt(int[] zahlen ){
         double summe = 0;
