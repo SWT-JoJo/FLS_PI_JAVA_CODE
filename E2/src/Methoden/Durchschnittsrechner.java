@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Durchschnittsrechner {
     public static void main(String[] args) {
-        Durchschnittsrechner ds = new Durchschnittsrechner();
+        Durchschnittsrechner durchschnittsrechner = new Durchschnittsrechner();
         System.out.println("*****************************************************************");
         System.out.println("*                     DurchschnittsRechner                      *");
         System.out.println("*****************************************************************");
         System.out.println();
 
-        ds.eingabe();
+        durchschnittsrechner.eingabe();
     }
     public void eingabe(){
         Scanner scan = new Scanner(System.in);
@@ -39,5 +39,6 @@ public class Durchschnittsrechner {
         }
 
         return (summe / zahlen.length);
+
     }
 }
