@@ -30,7 +30,7 @@ public class Durchschnittsrechner {
         System.out.println("Der Durschschnitt beträgt: " + df_numbers.format(durchschnitt));
     }
 
-    public double durchschnitt(int[] zahlen ){
+    public double durchschnitt(int[] zahlen){
         double summe = 0;
         for(int i = 0; i < zahlen.length; i++){
             summe += zahlen[i];
