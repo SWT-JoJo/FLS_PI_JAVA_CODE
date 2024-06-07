@@ -55,7 +55,7 @@ public class TaschenrechnerV2 {
                     }
                 }
                 //Auwahl der Rechenoperation
-                System.out.println("\nBitte wählen sie aus: \n\t0: reset input\n\t1: plus(+)\n\t2: minus(-)\n\t3: mal(*)\n\t4: geteilt (/)\n\t5: potenz (^)\n\t6: wurzel");
+                System.out.println("\nBitte wählen sie aus: \n\t0: Reset input\n\t1: Plus(+)\n\t2: Minus(-)\n\t3: Mal(*)\n\t4: Geteilt (/)\n\t5: Potenz (^)\n\t6: Wurzel (√)");
                 do {
                     try {
                         System.out.print("Ihr Rechenoperator: ");

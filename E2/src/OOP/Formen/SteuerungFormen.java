@@ -26,6 +26,8 @@ public class SteuerungFormen {
         }
         while (zuBerrechnen < 1 || zuBerrechnen > 2);
 
+        System.out.println();
+
         if(zuBerrechnen == 1){
             Rechteck rechteck = new Rechteck();
             System.out.println("|-------------- Rechteck --------------|");
@@ -34,6 +36,7 @@ public class SteuerungFormen {
             double height = scan.nextDouble();
             System.out.print("Breite: ");
             double width = scan.nextDouble();
+
 
             umfang = rechteck.umfang(height, width);
             flaeche = rechteck.flache(height,width);
