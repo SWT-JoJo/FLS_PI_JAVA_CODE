@@ -11,7 +11,6 @@ public class Kunde {
         this.name  = name;
         this.vorname = vorname;
         this.kdNr = autowert++;
-        //autowert ++;
     }
 
 
