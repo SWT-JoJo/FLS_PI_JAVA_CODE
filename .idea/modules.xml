@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/E1/E1.iml" filepath="$PROJECT_DIR$/E1/E1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/E2/E2.iml" filepath="$PROJECT_DIR$/E2/E2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-Phase/E-Phase.iml" filepath="$PROJECT_DIR$/E-Phase/E-Phase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Code.iml" filepath="$PROJECT_DIR$/.idea/Java_Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrivateCode/PrivateCode.iml" filepath="$PROJECT_DIR$/PrivateCode/PrivateCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q-Phase/Q-Phase.iml" filepath="$PROJECT_DIR$/Q-Phase/Q-Phase.iml" />
     </modules>
   </component>
 </project>
