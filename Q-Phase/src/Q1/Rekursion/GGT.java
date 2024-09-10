@@ -15,6 +15,7 @@ public class GGT {
         System.out.println("\nDer groeßte Gemeinsamme Teiler ist (rekursion): " + ggt2(zahl1, zahl2));
     }
 
+    //Iteration (Schleife)
     public static int ggt1(int zahl1, int zahl2){
         int rest;
         while (zahl2 != 0){
@@ -26,15 +27,12 @@ public class GGT {
         return zahl1;
     }
 
+    //rekursion
     public static int ggt2(int zahl1, int zahl2){
-        int temp;
         if(zahl2 == 0){
             return zahl1;
         }
-        temp = zahl1 % zahl2;
-        zahl1 = zahl2;
-        zahl2 = temp;
-        return ggt2(zahl1,zahl2);
+        return ggt2(zahl2,zahl1 % zahl2);
 
     }
 }
