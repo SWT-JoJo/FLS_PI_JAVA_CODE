@@ -36,7 +36,7 @@ public class Verschlüssler {
         inputText_Splitted = inputText.toCharArray();
         splittedText_Ascii = new int[inputText.length()];
         for (int i = 0; i < inputText_Splitted.length; i++) {
-            splittedText_Ascii[i] = (int) inputText_Splitted[i];
+            splittedText_Ascii[i] = inputText_Splitted[i];
             //System.out.print(splittedText_Ascii[i] + " ");
         }
 

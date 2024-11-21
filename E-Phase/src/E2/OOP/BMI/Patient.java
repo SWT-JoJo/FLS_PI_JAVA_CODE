@@ -3,10 +3,10 @@ package E2.OOP.BMI;
 import java.text.DecimalFormat;
 
 public class Patient {
-    private String name;
-    private char geschlecht;
-    private double gewicht;
-    private double groeße;
+    private final String name;
+    private final char geschlecht;
+    private final double gewicht;
+    private final double groeße;
 
 
     public Patient(String name, char geschlecht, double gewicht, double groeße){

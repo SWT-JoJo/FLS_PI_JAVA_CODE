@@ -48,12 +48,7 @@ public class Teilbarkeit {
     }
     public boolean teilbar(int zahl, int divisor){
         boolean teilbar;
-        if(zahl % divisor == 0){
-            teilbar =   true;
-        }
-        else {
-            teilbar = false;
-        }
+        teilbar = zahl % divisor == 0;
 
         return teilbar;
     }

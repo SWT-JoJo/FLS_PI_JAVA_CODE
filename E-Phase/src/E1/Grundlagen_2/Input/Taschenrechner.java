@@ -18,7 +18,7 @@ public class Taschenrechner {
         //Berrechen und in neuen Variablen speichern
         int addiert = (zahl1 + zahl2);
         int subrahiert = (zahl1 - zahl2);
-        double divison = (double) (zahl1 / zahl2);
+        double divison = zahl1 / zahl2;
         int multiplikation = (zahl1  * zahl2);
 
         //Ausgabe der Ergebnisse

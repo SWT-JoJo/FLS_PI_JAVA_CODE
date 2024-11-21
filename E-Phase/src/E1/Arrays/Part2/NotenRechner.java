@@ -67,11 +67,11 @@ public class NotenRechner {
             note = (double) ((durchschnitt(klausuren) * 2) + durchschnitt(tests)) / 3;
             note = ((int) (note * 100)) / 100.0;
         } else if (klausuren.length < 0 && tests.length == 0) {
-            note = (double) (durchschnitt(klausuren));
+            note = durchschnitt(klausuren);
             note = ((int) (note * 100)) / 100.0;
         }
         else {
-            note = (double) (durchschnitt(tests));
+            note = durchschnitt(tests);
             note = ((int) (note * 100)) / 100.0;
         }
         return note;

@@ -18,7 +18,6 @@ public class BMIBerrechnen {
         double groesse = (scan.nextDouble() / 100);
         System.out.print("Geben sie ihr Gewicht ein (kg): ");
         double gewicht = scan.nextDouble();
-;
 
         System.out.println("\n");
 

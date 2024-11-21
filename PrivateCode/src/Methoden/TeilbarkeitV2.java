@@ -39,11 +39,7 @@ public class TeilbarkeitV2 {
     }
 
     public  boolean teilbar(int num1, int num2){
-        boolean teilbar = false;
-
-        if((num1 % num2) == 0){
-            teilbar = true;
-        }
+        boolean teilbar = (num1 % num2) == 0;
 
         return teilbar;
     }

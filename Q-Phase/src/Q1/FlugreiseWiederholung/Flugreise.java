@@ -1,10 +1,10 @@
 package Q1.FlugreiseWiederholung;
 
 public class Flugreise {
-    private boolean[] sitzplatzliste;
-    private String fluggeselschaft;
-    private String flugzeugtyp;
-    private String kennung;
+    private final boolean[] sitzplatzliste;
+    private final String fluggeselschaft;
+    private final String flugzeugtyp;
+    private final String kennung;
 
     public Flugreise(int anzSitzplätze, String fluggeselschaft, String flugzeugtyp, String kennung){
         sitzplatzliste = new boolean[anzSitzplätze];
@@ -25,12 +25,7 @@ public class Flugreise {
         boolean temp;
 
         //überprüen ob der Sitz ungebucht ist (Frei ist /false)
-        if(!sitzplatzliste[sitznummer]){
-            temp = true;
-        }
-        else{
-            temp  = false;
-        }
+        temp = !sitzplatzliste[sitznummer];
 
 
         return  temp;

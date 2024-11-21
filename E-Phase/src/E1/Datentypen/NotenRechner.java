@@ -18,7 +18,8 @@ public class NotenRechner {
         // Lösung 1 : In die rechnung reinfach ein double einfügen hier anstatt "Klausur*2" schreibt man "Klausur*2.0"
         // Lösung 2: Typcast-ing, vor der Rechnung in klammern den Gewünschte Datentypen reinschreiben hier "(double)"
 
-        notenschnitt = (double) /* Typecast: (Double) */ (klausur1*2.0 + klausur2*2.0 + test1 +test2)/anzahl;
+        /* Typecast: (Double) */
+        notenschnitt = (klausur1*2.0 + klausur2*2.0 + test1 +test2) /anzahl;
 
         // Ergebnisse ausgeben
         System.out.println("1.Klausur: " + klausur1);

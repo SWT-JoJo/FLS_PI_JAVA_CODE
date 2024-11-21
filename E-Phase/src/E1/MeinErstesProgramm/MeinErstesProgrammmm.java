@@ -1,4 +1,7 @@
 package E1.MeinErstesProgramm;
+
+import java.time.Year;
+
 /*Kommentar: Klassname = Dateiname*/
 class MeinErstesProgrammmm{
     // Main-Methode = Programmstart
@@ -8,5 +11,6 @@ class MeinErstesProgrammmm{
     // Welches zeilenweise abgearbeitet wird
 
          System.out.println("Hello Word \n");
+
     }      
 }

@@ -14,7 +14,7 @@ public class LuhnAlgorithmus {
         int buffercounter = 0;
         for(int i = 0; i < input.length; i++){
             if(Character.isDigit(input[i])){
-                cardNumber[buffercounter] = ((int) input[i]);
+                cardNumber[buffercounter] = input[i];
 
                 System.out.print(cardNumber[buffercounter]);
                 buffercounter ++;

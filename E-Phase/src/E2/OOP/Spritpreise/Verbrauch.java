@@ -2,9 +2,9 @@ package E2.OOP.Spritpreise;
 
 public class Verbrauch {
 
-    private double strecke;
-    private double spritMenge;
-    private double spritPreis;
+    private final double strecke;
+    private final double spritMenge;
+    private final double spritPreis;
 
     public Verbrauch(double strecke ,double spritMenge, double spritPreis){
         this.strecke = strecke;

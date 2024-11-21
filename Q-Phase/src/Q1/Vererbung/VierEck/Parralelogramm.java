@@ -1,7 +1,7 @@
 package Q1.Vererbung.VierEck;
 
 public class Parralelogramm extends Viereck{
-    private double winkel;
+    private final double winkel;
     public Parralelogramm(double laenge, double hoehe, double winkel){
         super.laenge = laenge;
         super.hoehe = hoehe;

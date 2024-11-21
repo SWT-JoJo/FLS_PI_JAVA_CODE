@@ -1,6 +1,6 @@
 package Q1.Vererbung.VierEck;
 
-public class Viereck {
+public abstract class Viereck {
     protected double laenge;
     protected double hoehe;
 

@@ -9,7 +9,7 @@ public class ZahlenRaten {
         boolean richtig = false;
         int zahl = (int) (Math.random() * 10 + 1);
 
-        while (richtig == false){
+        while (!richtig){
             System.out.print("An welche zahl denke ich? : ");
             int userInput = scan.nextInt();
 

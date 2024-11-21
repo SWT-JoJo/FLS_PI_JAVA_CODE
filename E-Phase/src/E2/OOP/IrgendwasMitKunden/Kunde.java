@@ -1,9 +1,9 @@
 package E2.OOP.IrgendwasMitKunden;
 
 public class Kunde {
-    private String name;
-    private String vorname;
-    private int kdNr;
+    private final String name;
+    private final String vorname;
+    private final int kdNr;
     private static int autowert = 1000;
 
 

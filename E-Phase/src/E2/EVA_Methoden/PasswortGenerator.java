@@ -40,12 +40,7 @@ public class PasswortGenerator {
 
                 if (genNumber > 47 && genNumber < 58 || genNumber > 64 && genNumber < 90 || genNumber > 97 && genNumber < 123) { //Überprüfung ob die generierte Zahl ein Bustabe ist
                     for(int x = 0; x < numberLogger.length; x++){ //check ob der Bustabe schon verwendet wurde
-                        if (genNumber != numberLogger[x]) {
-                            allowLetter = true;
-                        }
-                        else{
-                            allowLetter = false;
-                        }
+                        allowLetter = genNumber != numberLogger[x];
                     }
                 }
 
