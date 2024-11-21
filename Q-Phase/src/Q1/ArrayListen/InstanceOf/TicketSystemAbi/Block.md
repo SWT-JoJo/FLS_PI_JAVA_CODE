@@ -10,15 +10,7 @@ public class Block{
         this.bezeichnung = bezeichnung;
     }
     public boolean istFrei(int reihe, int platz){
-        boolean temp;
-        if(!belegung[reihe][platz]){
-            temp = true;
-        }
-        else {
-          temp =  false;
-        }
-        
-        return temp;
+        return !belegung[reihe][platz]; //wenn frei (false) return true, sonnst wenn belegt (true) return false
     }
     
     public void belegePlatz(int reihe, int platz){
