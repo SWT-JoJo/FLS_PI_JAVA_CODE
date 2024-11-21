@@ -1,4 +1,4 @@
-package Schleifen;
+package E1.Schleifen;
 
 import java.util.Scanner;
 
