@@ -37,7 +37,7 @@ public class WuefelGUI {
             public void actionPerformed(ActionEvent e) {
                 int zahl1 = Integer.parseInt(inputField1.getText());
                 int zahl2 = Integer.parseInt(inputField2.getText());
-                int wuefel = (int)(Math.random() * 600 + 1);
+                int wuefel = (int)(Math.random() * 20 + 1);
                 randomText1.setText("Würfel: " + wuefel);
 
                 if(zahl1 == wuefel && zahl2 == wuefel){

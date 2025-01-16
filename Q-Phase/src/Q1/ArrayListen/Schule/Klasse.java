@@ -22,7 +22,7 @@ public class Klasse {
             counter ++;
         }
     }
-    public void neueSchüler(String name){
+    public void neueSchueler(String name){
         meineSchueler.add(new Schueler(name));
         System.out.println("Schüler erfolgreich hinzugefügt");
     }

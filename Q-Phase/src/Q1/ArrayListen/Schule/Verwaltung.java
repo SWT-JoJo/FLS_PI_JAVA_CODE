@@ -32,7 +32,7 @@ public class Verwaltung {
         int addStudents = scan.nextInt();
         for (int i = 0; i < addStudents; i++ ){
             System.out.print("Geben sie den Namen des Schuelers ein: ");
-            k1.neueSchüler(scan.next());
+            k1.neueSchueler(scan.next());
         }
         System.out.println("Alle Schueler erfolgreich hinzugefügt");
         System.out.println();

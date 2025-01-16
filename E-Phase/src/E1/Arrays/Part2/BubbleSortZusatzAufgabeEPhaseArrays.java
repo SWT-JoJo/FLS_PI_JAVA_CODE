@@ -2,7 +2,7 @@ package E1.Arrays.Part2;
 
 import java.util.Scanner;
 
-public class BubbleSort {
+public class BubbleSortZusatzAufgabeEPhaseArrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] bubble;
