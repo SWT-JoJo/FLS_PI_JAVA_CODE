@@ -60,7 +60,7 @@ public class SimplexChat_Sender {
         //Errichten der Verbindung
         System.out.println(Sysin + "Ich bin der Sender\n");
 
-        serial.open();                                                              //Öffnen der Verbindung
+        serial.open();                                                            //Öffnen der Verbindung [LEEEETS GOOOOOO]
         System.out.println(Sysin + "Port wurde geöffnet.\n");
 
         Thread.sleep(50);
@@ -122,3 +122,4 @@ public class SimplexChat_Sender {
 
     }
 }
+//Wilkommen am Ende des Codes :)
