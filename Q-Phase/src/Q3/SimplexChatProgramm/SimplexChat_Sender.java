@@ -123,3 +123,4 @@ public class SimplexChat_Sender {
     }
 }
 //Wilkommen am Ende des Codes :)
+//Sie haben die Psychose überlebt, jetzt bekommen sie von Fabian Sunkel 100€ überwiesen (er hat dem hier freiwillig zugestimmt)

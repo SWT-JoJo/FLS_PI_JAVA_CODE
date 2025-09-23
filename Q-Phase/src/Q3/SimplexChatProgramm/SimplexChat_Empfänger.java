@@ -27,7 +27,7 @@ public class SimplexChat_Empfänger {
     public SimplexChat_Empfänger() {
         Serial connection;
         try {
-            connection = new Serial("COM7", 9600, 8, 1, 0);
+            connection = new Serial("COM3", 9600, 8, 1, 0);
             try {
                 connection.open();
             } catch (IOException e) {
