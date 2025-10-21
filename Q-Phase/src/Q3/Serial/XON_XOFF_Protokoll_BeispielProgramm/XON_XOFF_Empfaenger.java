@@ -1,4 +1,4 @@
-package Q3.XON_XOFF_Protokoll_BeispielProgramm;
+package Q3.Serial.XON_XOFF_Protokoll_BeispielProgramm;
 
 import serialio.Serial;
 

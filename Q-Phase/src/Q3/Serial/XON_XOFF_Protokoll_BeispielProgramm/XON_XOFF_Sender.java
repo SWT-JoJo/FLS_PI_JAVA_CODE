@@ -1,9 +1,8 @@
-package Q3.XON_XOFF_Protokoll_BeispielProgramm;
+package Q3.Serial.XON_XOFF_Protokoll_BeispielProgramm;
 
 import serialio.Serial;
 
 import java.io.IOException;
-import java.util.Random;
 import java.util.Scanner;
 
 public class XON_XOFF_Sender {

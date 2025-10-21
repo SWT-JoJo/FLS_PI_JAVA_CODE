@@ -1,4 +1,4 @@
-package Q3.SimplexChatProgramm;
+package Q3.Serial.SimplexChatProgramm;
 
 
 import serialio.Serial;
