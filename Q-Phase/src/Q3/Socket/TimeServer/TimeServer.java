@@ -40,7 +40,7 @@ public class TimeServer {
     public void communicate() throws Exception {
 
             clientSocket.write(Calendar.getInstance().getTime() + "\n");
-            Thread.sleep(1000);
+            Thread.sleep(1000);                                         //Wait 1sec
 
     }
 
