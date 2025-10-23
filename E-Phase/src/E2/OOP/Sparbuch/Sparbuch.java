@@ -1,6 +1,6 @@
 package E2.OOP.Sparbuch;
 
-public class Sparbuch {
+public class Sparbuch extends SparbuchTest {
 
     private double kontostand = 1000.0;
     private String name;

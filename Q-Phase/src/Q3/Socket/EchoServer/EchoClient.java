@@ -21,7 +21,9 @@ public class EchoClient {
         println("System:\tClient gestartet!\n");
         connect();
         communicate();
-        end();
+
+        clientSocket.close();
+        println("System:\tClient beendet!\n");
     }
 
     private void connect() throws Exception {
@@ -32,25 +34,28 @@ public class EchoClient {
 
     private void communicate() throws Exception {
         Scanner scan = new Scanner(System.in);
-        while (true) {
+        String input = "";
+        do{
             print("Eingabe: ");
-            String input = scan.nextLine();
+            input = scan.nextLine();
             clientSocket.write(input + "\n");
 
             String temp = clientSocket.readLine();
             println("Server Antwort:\t" + temp);
 
-            if(temp.contains("over")){
-                break;
-            }
 
             print("\n");
-        }
+        }while (!end(input));
+
     }
 
-    private void end() throws Exception {
-        clientSocket.close();
-        println("System:\tVerbindung zum Server beendet - Client beendet");
+    private boolean end(String input) throws Exception {
+
+        if(input.contains("over")){
+            return true;
+        }
+
+        return false;
     }
 
 
