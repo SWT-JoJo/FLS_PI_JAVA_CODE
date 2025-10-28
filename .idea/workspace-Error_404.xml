@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3861423a-909f-4814-a2d6-94ab856f5d58" name="Changes" comment="XON - XOFF&#10;&#10;ABITÜR AUFGABEN">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SWT-JoJo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SWT-JoJo/FLS_PI_JAVA_CODE.git&quot;,
+    &quot;accountId&quot;: &quot;c656b618-5720-48f4-b18d-30276fefb7e6&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Q-Phase/src/Q1/ArrayListen/SchuleErweiterung/Verwaltung.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Q-Phase/src/Q1/SortierAlgorythmen/Verwaltung.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2g5yYTAMMFpX7KVovHLwGIePHjg" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BMIBerrechnen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI_Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_Converter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceaser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceeser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharSearchGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordinateParser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DezimalInBinär.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EasyButton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fakultaet.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Farbmischer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Firma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlugreisenErsteller.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GGT.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HangMan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hashmap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HundTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JDBCGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBCTutorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KarteikartenApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KreuzfahrtTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KundeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MeinErstesProgrammmm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswortGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PinGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PraktikumsVerwaltung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PraktikumsVerwaltungMitGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreparedStatement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomShit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SchulTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplexChat_Empfänger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplexChat_Sender.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SparbuchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SteuerungFormen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringUmkehrer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaschenrechnerV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TetrisGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Verbrauchsrechner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Verschlüssler.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Verwaltung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VerwaltungSortieralgorithmen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VierEckRechner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WuefelGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XON_XOFF_Empfaenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XON_XOFF_Sender.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZahlenRaten.executor&quot;: &quot;Run&quot;,
+    &quot;Application.charSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TestKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonah/OneDrive/Schule - FLS/PI/Java_Code&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonah/OneDrive/Schule - FLS/PI/Java_Code/UnnoetigesZeug/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q2\JDBC" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q1\ArrayListen\SchuleErweiterung" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q1\Assoziationen\KontoV2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q3\XON_XOFF_Protokoll_BeispielProgramm" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q3\SimplexChatProgramm" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q2\JDBC\Resources" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\PrivateCode\src" />
+      <recent name="C:\Users\jonah\OneDrive\Schule - FLS\PI\Java_Code\Q-Phase\src\Q1\SortierAlgorythmen" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Q1.SortierAlgorythmen" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3861423a-909f-4814-a2d6-94ab856f5d58" name="Changes" comment="" />
+      <created>1715001785800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715001785800</updated>
+      <workItem from="1760261293068" duration="240000" />
+    </task>
+    <task id="LOCAL-00001" summary="OOP.Formen adding&#10;some files are updated">
+      <option name="closed" value="true" />
+      <created>1715939016012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715939016012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+ Adding Kunden Adding some ohter stuf&#10;f">
+      <option name="closed" value="true" />
+      <created>1717763862481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717763862481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+ Adding Kunden Adding some ohter stuf&#10;f">
+      <option name="closed" value="true" />
+      <created>1718702702436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718702702436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New FileOrder for the new Schoolyear">
+      <option name="closed" value="true" />
+      <created>1724925662086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724925662086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New FileOrder for the new Schoolyear">
+      <option name="closed" value="true" />
+      <created>1724925674873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724925674873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Rekursion und Wiederholung der E2">
+      <option name="closed" value="true" />
+      <created>1725526866725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725526866725</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Abschluss Rekursion">
+      <option name="closed" value="true" />
+      <created>1725948987858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725948987858</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Abschluss Rekursion">
+      <option name="closed" value="true" />
+      <created>1725949926821</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725949926821</updated>
+    </task>
+    <task id="LOCAL-00009" summary="+ Viereck.java&#10;+ Rechteck.java&#10;+ Paralelogramm.java&#10;+ Quadrat.java&#10;+ VierEckRechner.java">
+      <option name="closed" value="true" />
+      <created>1726554780126</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726554780126</updated>
+    </task>
+    <task id="LOCAL-00010" summary="+Adding ArrayListFiles">
+      <option name="closed" value="true" />
+      <created>1732183237815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732183237815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="* Bug Fixes">
+      <option name="closed" value="true" />
+      <created>1732183283610</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732183283610</updated>
+    </task>
+    <task id="LOCAL-00012" summary="* Bug Fixes&#10;+ Adding some files">
+      <option name="closed" value="true" />
+      <created>1732183494543</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732183494543</updated>
+    </task>
+    <task id="LOCAL-00013" summary="* Updating Block">
+      <option name="closed" value="true" />
+      <created>1732183736338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732183736338</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Start des Themas: Serielle Schnittstellen &#10;&#10;SimplexChat Programm mit Sender und Empfänger hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1757583898641</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757583898641</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Start des Themas: Serielle Schnittstellen &#10;&#10;SimplexChat Programm mit Sender und Empfänger hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1757583905140</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757583905140</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Start des Themas: Serielle Schnittstellen&#10;&#10;SimplexChat Programm mit Sender und Empfänger hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1757584231353</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757584231353</updated>
+    </task>
+    <task id="LOCAL-00017" summary="XON - XOFF&#10;&#10;ABITÜR AUFGABEN">
+      <option name="closed" value="true" />
+      <created>1758616078601</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758616078601</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP.Formen adding&#10;some files are updated" />
+    <MESSAGE value="+ Adding Kunden Adding some ohter stuf&#10;f" />
+    <MESSAGE value="New FileOrder for the new Schoolyear" />
+    <MESSAGE value="Rekursion und Wiederholung der E2" />
+    <MESSAGE value=" Some Changes at StringUmkehrer" />
+    <MESSAGE value="Abschluss Rekursion" />
+    <MESSAGE value="+ Viereck.java&#10;+ Rechteck.java&#10;+ Paralelogramm.java&#10;+ Quadrat.java&#10;+ VierEckRechner.java" />
+    <MESSAGE value="+Adding ArrayListFiles" />
+    <MESSAGE value="* Bug Fixes" />
+    <MESSAGE value="* Bug Fixes&#10;+ Adding some files" />
+    <MESSAGE value="* Updating Block" />
+    <MESSAGE value="Start des Themas: Serielle Schnittstellen &#10;&#10;SimplexChat Programm mit Sender und Empfänger hinzugefügt" />
+    <MESSAGE value="Start des Themas: Serielle Schnittstellen&#10;&#10;SimplexChat Programm mit Sender und Empfänger hinzugefügt" />
+    <MESSAGE value="XON - XOFF&#10;&#10;ABITÜR AUFGABEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="XON - XOFF&#10;&#10;ABITÜR AUFGABEN" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Q-Phase/src/Q1/BinaereSuche/charSearch.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

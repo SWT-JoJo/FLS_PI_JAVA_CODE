@@ -1,15 +1,20 @@
-package Q3.Socket.EchoServer;
+package Q3.Socket.ChatServerWithOneClient;
+
 
 import socketio.ServerSocket;
 import socketio.Socket;
 
-public class EchoServer {
+
+import java.util.Scanner;
+
+//THIS GUI IS POWERD BY CHATGPT
+public class ChatServer {
     private int port;
     private ServerSocket serverSocket;
     private Socket clientSocket;
     private int clientNr;
 
-    public EchoServer() throws Exception{
+    public ChatServer() throws Exception{
         port = 8080;
         serverSocket = new ServerSocket(port);
 
@@ -19,28 +24,39 @@ public class EchoServer {
         System.out.println("System:\tVerbindung aufgebaut - Warten auf Nachrichten\n");
         clientNr = 1;
 
-        println("System:\t Warten auf Nachricht von Client " + clientNr);
 
         communicate();
         end();
     }
 
     public static void main(String[] args) throws Exception{
-        new EchoServer();
+        new ChatServer();
     }
 
     public void communicate() throws Exception{
-
+        Scanner scan = new  Scanner(System.in);
         String endSymbol = "over";
 
         while (true) {
+            println("System:\tWarten auf Nachricht von Client " + clientNr);
+            println("");
             String temp = clientSocket.readLine();
+
             println("Client Sagt: " + temp);
-            clientSocket.write(temp + "\n");
 
             if(temp.contains(endSymbol)){
                 break;
             }
+
+            print("Eingabe: ");
+            String message = scan.nextLine();
+            clientSocket.write(message+"\n");
+
+            if(message.contains(endSymbol)){
+                break;
+            }
+
+            println("");
         }
 
     }
@@ -56,8 +72,8 @@ public class EchoServer {
     }
 
     public void println(String s){
-        System.out.println(s + "\n");
+        System.out.println(s);
     }
 
-}
 
+}
