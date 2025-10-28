@@ -16,8 +16,8 @@ public class ChatClientGUIV2 extends JFrame {
     private BufferedReader in;
     private PrintWriter out;
 
-    private final String host = "localhost"; // lokal testen
-    private final int port = 8080;
+    private final String host = "10.5.241.162"; // lokal testen
+    private final int port = 1234;
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(ChatClientGUIV2::new);

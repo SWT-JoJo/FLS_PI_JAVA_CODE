@@ -1,24 +1,22 @@
-package Q3.Socket.ChatServerWithOneClient;
+package Q3.Threads.MultiEchoServerTwoClients;
 
 import socketio.Socket;
 
 import java.util.Scanner;
 
-
-//THIS GUI IS POWERD BY CHATGPT
-public class ChatClient {
+public class EchoClient {
 
     private String host;
     private int port;
     private Socket clientSocket;
 
     public static void main(String[] args) throws Exception {
-        new ChatClient();
+        new EchoClient();
     }
 
-    public ChatClient() throws Exception {
-        host = "10.5.241.162";
-        port = 1234;
+    public EchoClient() throws Exception {
+        host = "localhost";
+        port = 8080;
 
         println("System:\tClient gestartet!\n");
         connect();
@@ -32,33 +30,23 @@ public class ChatClient {
         clientSocket = new Socket(host, port);
         clientSocket.connect();
         println("System:\tVerbindung aufgebaut\n");
+        System.out.println(clientSocket.readLine() + "\n");
     }
 
     private void communicate() throws Exception {
         Scanner scan = new Scanner(System.in);
-        String input = "";
-        String temp = "";
+        String input;
         do{
-            System.out.print("Eingabe: ");
+            print("Eingabe: ");
             input = scan.nextLine();
-
-
             clientSocket.write(input + "\n");
 
-            print("\n");
-
-            if(end(input)){
-                break;
-            }
-
-            println("System:\tWarten auf Antwort vom Server");
-            println("");
-            temp = clientSocket.readLine();
+            String temp = clientSocket.readLine();
             println("Server Antwort:\t" + temp);
 
 
             print("\n");
-        }while (!end(temp));
+        }while (!end(input));
 
     }
 

@@ -74,6 +74,4 @@ public class ChatServer {
     public void println(String s){
         System.out.println(s);
     }
-
-
 }
