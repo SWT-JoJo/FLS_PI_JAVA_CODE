@@ -16,20 +16,21 @@ public class EchoClient {
 
     public EchoClient() throws Exception {
         host = "localhost";
+
         port = 8080;
 
-        println("System:\tClient gestartet!\n");
+        System.out.println("System:\tClient gestartet!\n");
         connect();
         communicate();
 
         clientSocket.close();
-        println("System:\tClient beendet!\n");
+        System.out.println("System:\tClient beendet!\n");
     }
 
     private void connect() throws Exception {
         clientSocket = new Socket(host, port);
         clientSocket.connect();
-        println("System:\tVerbindung aufgebaut\n");
+        System.out.println("System:\tVerbindung aufgebaut\n");
         System.out.println(clientSocket.readLine() + "\n");
     }
 
@@ -37,15 +38,15 @@ public class EchoClient {
         Scanner scan = new Scanner(System.in);
         String input;
         do{
-            print("Eingabe: ");
+            System.out.print("Eingabe: ");
             input = scan.nextLine();
             clientSocket.write(input + "\n");
 
             String temp = clientSocket.readLine();
-            println("Server Antwort:\t" + temp);
+            System.out.println("Server Antwort:\t" + temp);
 
 
-            print("\n");
+            System.out.print("\n");
         }while (!end(input));
 
     }
@@ -59,12 +60,4 @@ public class EchoClient {
         return false;
     }
 
-
-    public void print(String s){
-        System.out.print(s);
-    }
-
-    public void println(String s){
-        System.out.println(s);
-    }
 }

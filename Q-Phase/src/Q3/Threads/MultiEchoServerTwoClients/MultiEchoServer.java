@@ -43,6 +43,4 @@ public class MultiEchoServer {
         serverSocket.close();
         System.out.println("System:\tServer beendet");
     }
-
 }
-
