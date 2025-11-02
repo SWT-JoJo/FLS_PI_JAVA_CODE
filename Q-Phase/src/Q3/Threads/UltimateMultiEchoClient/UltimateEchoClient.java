@@ -4,43 +4,37 @@ import socketio.Socket;
 
 import java.util.Scanner;
 
-public class EchoClient {
+public class UltimateEchoClient {
 
     private String host;
     private int port;
     private Socket clientSocket;
 
     public static void main(String[] args) throws Exception {
-        new EchoClient();
+        new UltimateEchoClient();
     }
 
-    public EchoClient() throws Exception {
+    public UltimateEchoClient() throws Exception {
+        host = "localhost";
+
+        port = 8080;
+
         System.out.println("System:\tClient gestartet!\n");
         connect();
         communicate();
 
-        readingThread.interrupted();
         clientSocket.close();
         System.out.println("System:\tClient beendet!\n");
     }
 
     private void connect() throws Exception {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Server-IP: ");
-        host = scan.next();
-        System.out.print("Port: ");
-        port = scan.nextInt();
-
         clientSocket = new Socket(host, port);
         clientSocket.connect();
         System.out.println("System:\tVerbindung aufgebaut\n");
+        System.out.println(clientSocket.readLine() + "\n");
 
-        int clientNumber = Integer.parseInt(clientSocket.readLine());
-        System.out.println("Zugeteilte Clientnummer: " + clientNumber + "\n\n");
-
-        readingThread thread = new  readingThread(clientSocket);
-        thread.start();
-        System.out.println("System:\t Thread gestartet!\n");
+        ClientHoeren t = new  ClientHoeren(clientSocket);
+        t.start();
     }
 
     private void communicate() throws Exception {
@@ -50,6 +44,8 @@ public class EchoClient {
             System.out.print("Eingabe: ");
             input = scan.nextLine();
             clientSocket.write(input + "\n");
+
+            System.out.print("\n");
         }while (!end(input));
 
     }
