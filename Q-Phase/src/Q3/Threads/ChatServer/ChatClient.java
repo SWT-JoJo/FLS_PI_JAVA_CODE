@@ -56,11 +56,7 @@ public class ChatClient {
 
     private boolean end(String input) throws Exception {
 
-        if(input.contains("over")){
-            return true;
-        }
-
-        return false;
+        return input.contains("over");
     }
 
 }
