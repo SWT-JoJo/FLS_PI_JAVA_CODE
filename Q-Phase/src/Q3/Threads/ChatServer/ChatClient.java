@@ -15,9 +15,7 @@ public class ChatClient {
     }
 
     public ChatClient() throws Exception {
-        host = "localhost";
 
-        port = 8080;
 
         System.out.println("System:\tClient gestartet!\n");
         connect();
@@ -28,6 +26,12 @@ public class ChatClient {
     }
 
     private void connect() throws Exception {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("IP: ");
+        String host = scan.next();
+        System.out.print("Port: ");
+        int port = scan.nextInt();
+        System.out.println("\n\n");
         clientSocket = new Socket(host, port);
         clientSocket.connect();
         System.out.println("System:\tVerbindung aufgebaut\n");

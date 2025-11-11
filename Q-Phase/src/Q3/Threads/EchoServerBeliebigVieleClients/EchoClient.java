@@ -34,7 +34,8 @@ public class EchoClient {
         clientSocket.connect();
         System.out.println("System:\tVerbindung aufgebaut\n");
 
-        int clientNumber = Integer.parseInt(clientSocket.readLine());
+        int clientNumber = clientSocket.read();
+        //int clientNumber = Integer.parseInt(clientSocket.readLine());
         System.out.println("Zugeteilte Clientnummer: " + clientNumber + "\n\n");
     }
 

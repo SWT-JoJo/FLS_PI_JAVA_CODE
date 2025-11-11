@@ -17,7 +17,7 @@ public class KommunikationsThread extends Thread {
             clientSocket.write(clientNumber + "\n");
             String temp;
             do {
-                 temp = clientSocket.readLine();
+                temp = clientSocket.readLine();
                 System.out.println("Client " + clientNumber + " Sagt: " + temp + "\n");
                 clientSocket.write(temp + "\n");
 
@@ -30,6 +30,7 @@ public class KommunikationsThread extends Thread {
 
         } catch (Exception e) {
             System.err.println("Fehler bei der Clientkommunikation mit Client " + clientNumber + " aufgetreten - Kommunikation beendet\n");
+
             Thread.currentThread().interrupt(); //Thread beenden
         }
     }

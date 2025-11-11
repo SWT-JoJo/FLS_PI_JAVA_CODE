@@ -16,12 +16,13 @@ public class ClientHoeren extends Thread {
         try {
             while (true) {
                 String message = socket.readLine();
-                System.out.println("\n" + message + "\n");
+                System.out.print("\b\b\b\b\b\b\b\b\b");
+                System.out.println("\n"+message + "\n");
                 System.out.print("Eingabe: ");
             }
 
         } catch (IOException e){
-            System.out.println("Fehler beim Lesen der Nachrichten an den Client");
+            System.err.println("Fehler beim Lesen der Nachrichten ODER der Server wurde beendet");
         }
     }
 }

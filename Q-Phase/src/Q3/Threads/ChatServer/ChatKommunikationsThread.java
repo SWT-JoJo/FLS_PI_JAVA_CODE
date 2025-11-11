@@ -45,7 +45,20 @@ public class ChatKommunikationsThread extends Thread {
 
         } catch (IOException e) {
             System.err.println("Fehler der Kommunikation mit " + name + "\n");
+
+            for(Socket socket : clientSockets) {
+                if(socket != clientSocket) {
+                    try {
+                        socket.write(name + " hat den Chat verlassen\n");
+                    } catch (IOException ex) {
+                        throw new RuntimeException(ex);
+                    }
+                }
+            }
+
+
             clientSockets.remove(clientSocket);
+            Thread.currentThread().interrupt();
         }
 
 
