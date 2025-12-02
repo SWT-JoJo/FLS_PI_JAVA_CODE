@@ -3,7 +3,7 @@
 1.1)
 
 ```java
-import java.util.Date;  //Imports sind in der Klausur nicht nötig, es wird von ausgegangen, dass diese berreits da sind :)
+import java.util.Date;  //Imports sind in der Klausur nicht nötig, es wird von ausgegangen, dass diese bereits da sind :)
 
 public class Buchung() {
     private Date buTag;
@@ -19,7 +19,7 @@ public class Buchung() {
     }
     
     public  String toString(){
-        return "Buchungnstag: "  + buTag.toString() + " Betrag: " + betrag + " Text: " + text;
+        return "Buchungstag: "  + buTag.toString() + " Betrag: " + betrag + " Text: " + text;
     }
 }
 ```
@@ -55,6 +55,8 @@ public class Konto() {
                 temp.add(b);
             }
         }
+        
+        return temp;
     }
 }
 ```
@@ -117,8 +119,19 @@ public class EBServer() {
 
 ### Aufgabe 3
 
+3.2)
+
 ````java
+import socketio.Socket;
+
+import java.util.ArrayList;
 
 
+//Nur die Änderungen
+public class EBServer {
+
+    
+    
+}
 
 ````
